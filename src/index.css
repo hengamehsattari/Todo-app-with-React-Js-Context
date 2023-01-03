@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px 0;
+  background-color: rgb(182, 40, 111);
+}
+.tasks {
+  display: flex;
+  justify-content: space-between;
+}
+.trash {
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 47, 56);
+  border: none;
+}
+.edit {
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 47, 56);
+  border: none;
+}
+
+.trashedit {
+  display: flex;
+  gap: 6px;
+}
+
+form {
+  background-color: rgb(41, 47, 56);
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.list{
+  background-color: rgb(41, 47, 56);
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+input {
+  margin: 10px 0;
+  border-radius: 12px;
+  width: 300px;
+  background-color: rgb(0, 0, 0);
+  padding: 6px 6px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  color:rgb(255, 255, 255);
+}
+::placeholder {
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+p,
+h2 {
+  color: rgb(255, 255, 255);
+}
+.btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(182, 40, 111);
+  background-size: calc(100% + 10px) calc(100% + 10px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 0.75rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-position: -20px -20px;
+}
+
+.btn:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
+}
